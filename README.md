@@ -9,8 +9,8 @@ RUN npm install
 CMD ng serve
 ```
 
-Criar a imagem:  `docker build -t app-angular .`
+Criar a imagem:  `docker build -t frontend .`
 
 Com isso, se rodarmos “ docker images” a imagem deve aparecer. 
 
-Para executar: `docker run -it --rm -p 9000:80 app-angular`
+Para executar: `docker run -it --rm -p 9000:80 frontend`
